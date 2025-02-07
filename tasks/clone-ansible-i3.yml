@@ -7,7 +7,7 @@
   tags:
     - prj-ansible-i3
 
-- name: Clone Ansible Sway repository
+- name: Clone Ansible i3 repository
   git:
     repo: 'git@github.com:fabrizioanichini/ansible-i3.git'
     dest: "{{ ansible_env.HOME }}/projects/ansible-i3"

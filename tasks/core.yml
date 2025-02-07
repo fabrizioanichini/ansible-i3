@@ -27,6 +27,7 @@
   become: yes
   pacman:
     name:
+      - xorg-server
       - xorg-xinit 
     state: present
     update_cache: yes
