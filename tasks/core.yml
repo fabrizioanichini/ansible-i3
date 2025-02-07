@@ -42,6 +42,7 @@
     name:
       - ttf-jetbrains-mono
       - i3-wm
+      - i3status
       - dmenu
       - qutebrowser
     state: present
