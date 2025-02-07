@@ -39,6 +39,7 @@
   pacman:
     name:
       - i3-wm
+      - dmenu
       - qutebrowser
     state: present
     update_cache: yes
