@@ -17,6 +17,7 @@
     name:
       - vim 
       - tmux 
+      - rxvt-unicode
     state: present
     update_cache: yes
   tags:
@@ -39,6 +40,7 @@
   become: yes
   pacman:
     name:
+      - ttf-jetbrains-mono
       - i3-wm
       - dmenu
       - qutebrowser

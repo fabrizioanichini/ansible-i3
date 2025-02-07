@@ -1,0 +1,5 @@
+Xft.dpi: 200 
+URxvt.font: xft:JetBrainsMono:size=10
+URxvt*background: #000000
+URxvt*foreground: #ffffff
+URxvt.scrollBar: false
