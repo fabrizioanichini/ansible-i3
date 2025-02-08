@@ -16,8 +16,8 @@ assign [class="qutebrowser"] → 1
 exec --no-startup-id qutebrowser
 
 # Assign urxvt to workspace 2 and start it
-assign [class="URxvt"] → 2
-exec --no-startup-id urxvt
+assign [class="wezterm"] → 2
+exec --no-startup-id wezterm
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
